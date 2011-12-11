@@ -1,0 +1,17 @@
+/*
+Include syntax
+The syntax is basically the same as the syntax was with Chance.
+Old: @include slices("filename.png", $left: 10, $top: 10, $right: 10, $bottom: 10, $fill: 1 1, $skip: top-left middle)
+New: include_slices("filename.png", left 10, top 10, right 10, bottom 10, fill 1 1, skip top-left middle)
+@include slice also exists, e.g.: include_slice("filename.png", left 10, top 5, width 30, height 50, offset -10 10, repeat-x)
+All arguments besides the filename are optional.
+*/
+
+.test-view
+    background-color red
+    include_slices("test.png", left 100, top 50, right 100, bottom 50, fill 11 11)
+    h1
+        color white
+        position absolute
+
+
