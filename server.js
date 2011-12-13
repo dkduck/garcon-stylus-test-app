@@ -28,8 +28,8 @@ var myApp = g.App.create({
   theme: 'sc-theme', // what theme to use, will be the class of the body tag
   htmlHead: '<title>Docentending</title>', // what tags to include in the header of the generated html
 
-  minifyScripts: true,
-  minifyStylesheets: true,
+//  minifyScripts: true,
+//  minifyStylesheets: true,
 
   hasSC: true, // an app will have SC by default, if you don't want this, set to false
   configSC: {
